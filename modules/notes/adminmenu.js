@@ -33,7 +33,7 @@ logOut.addEventListener('click', function () {
 
 
 myprofile.addEventListener('click', function () {
-   window.location.href = "../pages/signup.html";
+   window.location.href = "../pages/index.html";
 
    // const logname = document.querySelector("#login");
    // const curuser = localStorage.getItem('currentuser');
