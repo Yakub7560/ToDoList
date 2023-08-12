@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  background: rgb(223, 224, 255);
+  background: linear-gradient(90deg, rgb(223, 224, 255) 28%, rgb(110, 200, 247) 66%);
+}
+
+.container {
+  margin: 50px auto 0;
+  width: 350px;
+  height: 500px;
+  background-color: #ffffff;
+  border-radius: 15px;
+}
+.container .signup__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 350px;
+  height: 500px;
+  border: 1px solid rgb(0, 0, 255);
+  border-radius: 15px;
+}
+.container .signup__menu .singip__header {
+  text-align: center;
+  font-weight: 700;
+}
+.container .signup__menu .menu__login #login {
+  border: 1px solid rgb(0, 0, 255);
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+}
+.container .signup__menu .menu__password #password {
+  border: 1px solid rgb(0, 0, 255);
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+}
+.container .signup__menu .menu__confirm #confirmpass {
+  border: 1px solid rgb(0, 0, 255);
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+}
+.container .signup__menu .menu__genshow {
+  display: flex;
+  justify-content: space-between;
+}
+.container .signup__menu .menu__bio #singupbio {
+  border: 1px solid rgb(0, 0, 255);
+  width: 100%;
+  padding: 5px 5px 50px 5px;
+  overflow: hidden;
+}
+.container .signup__menu .menu__buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.container .signup__menu .menu__buttons #signupbutton {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(255, 169, 8);
+  color: #ffffff;
+  border: 1px solid rgb(255, 169, 8);
+  border-radius: 5px;
+}
+.container .signup__menu .menu__buttons #savebutton {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(255, 169, 8);
+  color: #ffffff;
+  border: 1px solid rgb(255, 169, 8);
+  border-radius: 5px;
+}

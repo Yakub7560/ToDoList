@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Notes</title>
+   <link rel="stylesheet" href="../css/notes.css">
+   <link rel="stylesheet" href="../css/switch.css">
+   <link rel="stylesheet" href="../fonts/fonts.scss">
+</head>
+
+<body>
+   <div class="container">
+      <div class="header">
+         <div class="header__logo">Tasks</div>
+         <div class="create__notes">
+            <input type="date" id="h_data">
+            <input type="text" id="h_crNote">
+            <label class="switch">
+               <input type="checkbox" id="checkedbox">
+               <span class="slider round"></span>
+            </label>
+            <button id="addnote">Add note</button>
+         </div>
+         <div class="admin__menu">
+            <div class="admin__photo"><img src="../img/icons8-test-account-96.png" alt="notes_adminphoto"></div>
+            <div class="admin__list"> </div>
+         </div>
+
+
+
+
+      </div>
+
+      <div class="main">
+         <div class="main__left">
+            <div class="left__menu">
+               <div class="menu__tasks">
+                  All tasks
+               </div>
+               <div class="menu__catalog">
+                  Catalog
+               </div>
+            </div>
+         </div>
+         <div class="main__right">
+            <input type="text" id="inpsearch" placeholder="Search">
+            <div class="editing"></div>
+            <div class="notes__list">
+
+            </div>
+         </div>
+         <div class="main__rcatalog dfalse">
+            <div class="catcontainer">
+               <div class="rcatalog__important list">
+                  <div class="important__header">
+                     Important
+                  </div>
+               </div>
+               <div class="rcatalog__process list">
+                  <div class="process__header">
+                     In process
+                  </div>
+               </div>
+               <div class="rcatalog__done list">
+                  <div class="done__header">
+                     Done
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="../modules/notes/addnotes.js"></script>
+   <script src="../modules/notes/tabs.js"></script>
+   <script src="../modules/notes/adminmenu.js"></script>
+   <script src="../modules/notes/catalog.js"></script>
+   <script src="../modules/notes/catDragDrop.js"></script>
+
+
+</body>
+
+</html>

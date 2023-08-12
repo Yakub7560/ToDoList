@@ -1,0 +1,73 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: rgb(223, 224, 255);
+  background: linear-gradient(90deg, rgb(223, 224, 255) 28%, rgb(110, 200, 247) 66%);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px auto 0;
+  border-radius: 10px;
+  box-shadow: 5px 7px 10px 1px rgba(34, 60, 80, 0.5);
+  position: relative;
+  width: 350px;
+  height: 350px;
+  background-color: white;
+}
+.container img {
+  position: relative;
+  top: -90px;
+  width: 80px;
+  height: 80px;
+}
+.container input {
+  margin-bottom: 40px;
+  padding: 5px;
+  width: 270px;
+  height: 37px;
+}
+.container #hide {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  right: 0;
+  top: 0;
+}
+.container .registration {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+}
+.container .registration #signup {
+  width: 120px;
+  height: 40px;
+  color: white;
+  background-color: rgb(255, 166, 0);
+  border: 1px solid rgb(255, 166, 0);
+  border-radius: 5px;
+  font-size: 15px;
+}
+.container .registration #signup a {
+  color: white;
+}
+.container .registration #signin {
+  width: 120px;
+  height: 40px;
+  border: 1px solid rgb(255, 166, 0);
+  background-color: rgb(255, 166, 0);
+  border-radius: 5px;
+  font-size: 15px;
+  color: white;
+}
