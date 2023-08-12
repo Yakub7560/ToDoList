@@ -4,7 +4,10 @@ const menu1 = document.createElement("div");
 const menucontainer = document.createElement('div');
 const logOut = document.createElement('div');
 const myprofile = document.createElement('div');
+const curuser = document.querySelector(".admin__list");
 
+const username = localStorage.getItem("currentuser");
+curuser.innerHTML = username;
 menu1.className = "menu";
 logOut.className = "logout";
 myprofile.classList = "myprofile";
@@ -32,11 +35,11 @@ logOut.addEventListener('click', function () {
 })
 
 
-myprofile.addEventListener('click', function () {
-   window.location.href = "../pages/index.html";
+// myprofile.addEventListener('click', function () {
+//    window.location.href = "../pages/index.html";
 
-   // const logname = document.querySelector("#login");
-   // const curuser = localStorage.getItem('currentuser');
-   // logname.textContent = String(curuser);
-   // console.log(curuser);
-})
+//    const logname = document.querySelector("#login");
+//    const curuser = localStorage.getItem('currentuser');
+//    logname.textContent = String(curuser);
+//    console.log(curuser);
+// })
